@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" />
+    <title>Epicode - Live Coding M2W2L1 - Bootstrap Intro (Marco Longo)</title>
+  </head>
+  <body>
+    <!-- Setup: Importare le librerie CSS e JS di Bootstrap 5! -->
+    <!-- Bootstrap 5 official: https://getbootstrap.com/docs/5.0/getting-started/introduction/ -->
+    
+    <!-- Basic: Prendere dimestichezza con classi e componenti pre-made di Bootstrap. -->
+    <!-- Bootstrap 5 breakpoints: https://getbootstrap.com/docs/5.0/layout/breakpoints/ -->
+    <!-- Bootstrap 5 components (Btn): https://getbootstrap.com/docs/5.0/components/buttons/ -->
+    <!-- Bootstrap 5 classes: https://bootstrapcreative.com/resources/bootstrap-5-cheat-sheet-classes-index/ -->
+
+    <!-- A button... -->
+    <!-- <button type="button" class="btn btn-success custom-class">Success</button> -->
+    <!-- Dropdown menu -->
+    <!-- <div class="dropdown">
+      <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+        Dropdown button
+      </button>
+      <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+        <li><a class="dropdown-item" href="#">Action</a></li>
+        <li><a class="dropdown-item" href="#">Another action</a></li>
+        <li><a class="dropdown-item" href="#">Something else here</a></li>
+      </ul>
+    </div> -->
+
+    <!-- m-* (margin sulle 4 direzioni), mx-* (margin orizzontale), my-* (margin verticale), ms-* (margine sinistro), me-* (margine destro), mt-* (margin-top), mb-* (margin-bottom). 
+    Stesso discorso per padding! -->
+
+    <!-- Ex. 1 - Crea una semplice navbar sfruttando le classi di Bootstrap 5 (no grid). -->
+    <!-- <div class="box d-flex bg-dark text-light py-2">
+      <div class="element p-3">Link</div>
+      <div class="element p-3">Link</div>
+      <div class="element p-3">Link</div>
+      <div class="element p-3">Link</div>
+    </div> -->
+
+    <!-- Ex. 2 - Creare una row con 4 colonne in riga fino ad MD, 2cx2r da SM in giù e 1cx4r da XS in giù. 
+    Applicare ad ogni colonna, tramite classi Bootstrap, un bordo, un background grigio ed un padding di entità 4.
+    Realizzare uno schema prima di procedere. -->
+
+    <!-- Viewports XXL-XL-MD:
+    [ Col ][ Col ][ Col ][ Col ] 
+    Viewport SM:
+    [     Col    ][     Col    ]
+    [     Col    ][     Col    ]
+    Viewport XS:
+    [           Col            ]
+    [           Col            ]
+    [           Col            ]
+    [           Col            ]
+     -->
+    
+    <!-- <div class="box row bg-secondary text-light">
+      <div class="elem p-4 border col-md-3 col-sm-6 col-xs-12">Element</div>
+      <div class="elem p-4 border col-md-3 col-sm-6 col-xs-12">Element</div>
+      <div class="elem p-4 border col-md-3 col-sm-6 col-xs-12">Element</div>
+      <div class="elem p-4 border col-md-3 col-sm-6 col-xs-12">Element</div>
+    </div> -->
+
+    <!-- Ex. 3 - Inserire del testo nelle colonne dello schema creato sopra. Fare in modo che il testo delle colonne sia:
+    - Verde, se il viewport è 1200px o più;
+    - Arancione, se il viewport è compreso fra 1199px ed 800px;
+    - Rosso, se il viewport è inferiore a 800px. -->
+
+    <!-- Risoluzione: Vedi style.css! -->
+
+    <!-- Ex. 4a - Come fa Bootstrap 5 a rimodulare la dimensione delle col-*? -->
+    <!-- Con opportune media queries! -->
+
+    <!-- Ex. 4b - Cosa sfrutta per mettere elementi block, sulla stessa linea/riga? -->
+    <!-- Utilizza flex! -->
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>
